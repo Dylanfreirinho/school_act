@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+
+{% block head %}
+<link rel="stylesheet" type="text/css" href="../static/style/style.css">
+
+
+{% endblock %}
+
+{% block content %}
+
+   <h1> Welkom, {{ student.student_name }}</h1>
+<p>klas: {{ student.student_class }}</p>
+
+<input type="hidden" id="studentNumber" value="{{ student.student_number }}">
+
+<div id="statement-container">
+   
+</div>
+
+<script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+<script src="/static/js/act.js"></script>
+{% endblock %}

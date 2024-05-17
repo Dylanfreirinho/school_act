@@ -1,0 +1,28 @@
+{% extends 'base.html' %}
+
+{% block head %}
+<link rel="stylesheet" type="text/css" href="../static/style/style.css">
+<title>Docent Login</title>
+
+{% endblock %}
+
+{% block content %}
+<h1>Docent login</h1>
+{% with messages = get_flashed_messages() %}
+    {% if messages %}
+        <ul>
+            {% for message in messages %}
+                <li>{{ message }}</li>
+            {% endfor %}
+        </ul>
+    {% endif %}
+{% endwith %}    
+<form method="POST">
+    <label for="user_name">Gebruikersnaam:</label><br>
+    <input type="text" id="user_name" name="user_name" required /><br>
+    <label for="password">Wachtwoord:</label><br>
+    <input type="password" name="password" id="password" required /><br>
+    <input type="submit" value="Login">
+</form>
+
+{% endblock %}

@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+
+{% block head %}
+
+{% endblock %}
+
+{% block content %}
+<h1>Voer hier uw studentnummer in</h1>
+<form action="{{ url_for('student_check') }}" method="post">
+    <input type="text" id="student_number" name="student_number" placeholder="10000000" required>
+    <button type="submit">log in</button>
+</form>
+
+{% endblock %}

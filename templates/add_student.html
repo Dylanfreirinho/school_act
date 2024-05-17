@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+
+{% block head %}
+<link rel="stylesheet" type="text/css" href="../static/style/style.css">
+{% endblock %}
+
+{% block content %}
+<h1>Student toevoegen</h1>
+<form id="add-student" action="{{ url_for('add_student') }}" method="post">
+    <label for="student_number">Studentnummer:</label>
+    <input type="text" id="student_number" name="student_number" required \><br>
+    <label for="student_name">Naam:</label>
+    <input type="text" id="student_name" name="student_name" required \><br>
+    <label for="student_class">Klas:</label>
+    <input type="text" id="student_class" name="student_class" required \><br>
+    <label for="team">Team:</label>
+    <input type="text" id="team" name="team"><br>
+    <label for="action_type">Action Type</label>
+    <input type="text" id="action_type" name="action_type"><br>
+    <input type="submit" value="voegToe">
+</form>
+
+{% endblock %}

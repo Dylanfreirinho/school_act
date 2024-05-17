@@ -1,0 +1,33 @@
+{% extends 'base.html' %}
+
+{% block head %}
+<link rel="stylesheet" type="text/css" href="../static/style/style.css">
+
+{% endblock %}
+
+{% block content %}
+
+<h1>Action Types app</h1>
+
+<h2>Goededag, u kunt hier inloggen als student of docent</h2>
+<!-- De 2 knoppen die worden weergegeven als de student of docent naar de begin pagina gaan -->
+<!--De 2 knoppen verwijzen dan naar de respectieve inlogpagina's -->
+{% with messages = get_flashed_messages() %}
+    {% if messages %}
+        <ul>
+            {% for message in messages %}
+                <li>{{ message }}</li>
+            {% endfor %}
+        </ul>
+    {% endif %}
+{% endwith %}
+<div class="initform">
+    <form action="{{ ('student_login') }}">
+        <input class="stubutton" type="submit" value="Student" />
+    </form>
+    <form action="{{ ('docent_login') }}">
+        <input class="docentbutton" type="submit" value="Docent" />
+    </form>
+</div>
+
+{% endblock %}

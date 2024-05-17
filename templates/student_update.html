@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+
+{% block head %}
+
+{% endblock %}
+
+{% block content %}
+<h1>Bewerk student</h1>
+<form action="{{ url_for('student_update', student_number=student.student_number) }}" method="POST">
+    <label for="student_name">Naam:</label>
+    <input type="text" id="student_name" name="student_name" value="{{ student.student_name }}" required><br>
+    <label for="student_class">Klas:</label>
+    <input type="text" id="student_class" name="student_class" value="{{ student.student_class }}" required><br>
+    <label for="team">Team:</label>
+    <input type="text" id="team" name="team" value="{{ student.team }}"><br>
+    <label for="action_type">ActionType:</label>
+    <input type="text" id="action_type" name="action_type" value="{{ student.action_type }}"><br>
+    <input type="submit" value="Update">
+</form>
+
+{% endblock %}

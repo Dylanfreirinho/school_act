@@ -1,0 +1,58 @@
+{% extends 'base.html' %}
+
+{% block head %}
+<link rel="stylesheet" type="text/css" href="../static/style/style.css">
+{% endblock %}
+
+
+
+{% block content %}
+<h1>Studenten tabel</h1>
+<a href="{{ url_for('teacher_logout') }}">Uitloggen</a>
+
+<form action="{{ url_for('student_table') }}" method="GET">'
+  <label for="zoek_naam" name="zoek_naam"> zoek op student naam:</label>
+  <input type="text" id="zoek_naam" name="zoek_naam">
+  <input type="submit" value="search">
+</form>
+<p><a href="{{ url_for('ex_csv') }}">Export naar csv</a></p>
+<table id="studentTable">
+  <thead>  
+    <tr>
+        <th>Studentnumber</th>
+        <th>Naam</th>
+        <th>Klas</th>
+        <th>Team</th>
+        <th>ActionType</th>
+        <th>Opties</th>
+        
+    </tr>
+  </thead>
+  <tbody>
+    {% for student in students %}
+    <tr>
+      <td>{{ student.student_number }}</td>
+      <td>{{ student.student_name }}</td>
+      <td>{{ student.student_class }}</td>
+      <td>{{ student.team }}</td>
+      <td>{{ student.action_type }}</td>
+      <td>
+        <form action="{{ url_for('student_update', student_number=student.student_number) }}" method="get">
+          <button type="submit">Edit</button>
+        </form>
+      </td>
+      <td>
+        <form action="{{ url_for('student_delete', student_number=student.student_number) }}" method="post">
+          <button type="submit">Delete</button>
+        </form>
+      </td>
+    </tr>
+    {% endfor %}
+  </tbody>
+  <form action="{{ url_for('add_student') }}" method="get">
+    <input type="submit" value="Voeg een student toe">
+  </form>
+</table>
+
+
+{% endblock %}

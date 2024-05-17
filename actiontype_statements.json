@@ -1,0 +1,302 @@
+[
+   {
+      "statement_number":1,
+      "statement_choices":[
+         {
+            "choice_number":1,
+            "choice_text":"U gedraagt zich energiek en houdt van drukte.",
+            "choice_result":"E"
+         },
+         {
+            "choice_number":2,
+            "choice_text":"U gedraagt zich ingetogen en houdt van rust.",
+            "choice_result":"I"
+         }
+      ]
+   },
+   {
+      "statement_number":2,
+      "statement_choices":[
+         {
+            "choice_number":1,
+            "choice_text":"U vat dingen letterlijk op, u vertrouwt op uw gezonde verstand.",
+            "choice_result":"S"
+         },
+         {
+            "choice_number":2,
+            "choice_text":"U zoekt naar de betekenis van dingen, u vertrouwt op uw inzicht.",
+            "choice_result":"N"
+         }
+      ]
+   },
+   {
+      "statement_number":3,
+      "statement_choices":[
+         {
+            "choice_number":1,
+            "choice_text":"U vertrouwt op logica en stelt vragen aan anderen voordat u een beslissing neemt.",
+            "choice_result":"T"
+         },
+         {
+            "choice_number":2,
+            "choice_text":"U gaat op uw gevoel af en laat alles op u inwerken voor u een beslissing neemt.",
+            "choice_result":"F"
+         }
+      ]
+   },
+   {
+      "statement_number":4,
+      "statement_choices":[
+         {
+            "choice_number":1,
+            "choice_text":"U bent georganiseerd en netjes.",
+            "choice_result":"J"
+         },
+         {
+            "choice_number":2,
+            "choice_text":"U bent ongeorganiseerd en slordig",
+            "choice_result":"P"
+         }
+      ]
+   },
+   {
+      "statement_number":5,
+      "statement_choices":[
+         {
+            "choice_number":1,
+            "choice_text":"U spreekt luid.",
+            "choice_result":"E"
+         },
+         {
+            "choice_number":2,
+            "choice_text":"U spreekt zacht.",
+            "choice_result":"I"
+         }
+      ]
+   },
+   {
+      "statement_number":6,
+      "statement_choices":[
+         {
+            "choice_number":1,
+            "choice_text":"U bent praktisch ingesteld.",
+            "choice_result":"S"
+         },
+         {
+            "choice_number":2,
+            "choice_text":"U bent creatief ingesteld.",
+            "choice_result":"N"
+         }
+      ]
+   },
+   {
+      "statement_number":7,
+      "statement_choices":[
+         {
+            "choice_number":1,
+            "choice_text":"U bent recht door zee en direct.",
+            "choice_result":"T"
+         },
+         {
+            "choice_number":2,
+            "choice_text":"U bent tactvol en bemoedigend.",
+            "choice_result":"F"
+         }
+      ]
+   },
+   {
+      "statement_number":8,
+      "statement_choices":[
+         {
+            "choice_number":1,
+            "choice_text":"U doet alles stap voor stap.",
+            "choice_result":"J"
+         },
+         {
+            "choice_number":2,
+            "choice_text":"U doet alles tegelijk.",
+            "choice_result":"P"
+         }
+      ]
+   },
+   {
+      "statement_number":9,
+      "statement_choices":[
+         {
+            "choice_number":1,
+            "choice_text":"U neigt naar actie.",
+            "choice_result":"E"
+         },
+         {
+            "choice_number":2,
+            "choice_text":"U neigt naar reflectie.",
+            "choice_result":"I"
+         }
+      ]
+   },
+   {
+      "statement_number":10,
+      "statement_choices":[
+         {
+            "choice_number":1,
+            "choice_text":"U bent gewoon.",
+            "choice_result":"S"
+         },
+         {
+            "choice_number":2,
+            "choice_text":"U bent uniek.",
+            "choice_result":"N"
+         }
+      ]
+   },
+   {
+      "statement_number":11,
+      "statement_choices":[
+         {
+            "choice_number":1,
+            "choice_text":"U bent kritisch en wilt argumenten winnen.",
+            "choice_result":"T"
+         },
+         {
+            "choice_number":2,
+            "choice_text":"U bent vriendelijk en wil partijen verenigen.",
+            "choice_result":"F"
+         }
+      ]
+   },
+   {
+      "statement_number":12,
+      "statement_choices":[
+         {
+            "choice_number":1,
+            "choice_text":"U houdt van regels en systemen.",
+            "choice_result":"J"
+         },
+         {
+            "choice_number":2,
+            "choice_text":"U houdt van improviseren en opties open houden.",
+            "choice_result":"P"
+         }
+      ]
+   },
+   {
+      "statement_number":13,
+      "statement_choices":[
+         {
+            "choice_number":1,
+            "choice_text":"U pakt van alles aan.",
+            "choice_result":"E"
+         },
+         {
+            "choice_number":2,
+            "choice_text":"U wilt er eerst over nadenken.",
+            "choice_result":"I"
+         }
+      ]
+   },
+   {
+      "statement_number":14,
+      "statement_choices":[
+         {
+            "choice_number":1,
+            "choice_text":"U staat met beide benen op de grond.",
+            "choice_result":"S"
+         },
+         {
+            "choice_number":2,
+            "choice_text":"U bent fantasievol.",
+            "choice_result":"N"
+         }
+      ]
+   },
+   {
+      "statement_number":15,
+      "statement_choices":[
+         {
+            "choice_number":1,
+            "choice_text":"U bent streng en rechtvaardig.",
+            "choice_result":"T"
+         },
+         {
+            "choice_number":2,
+            "choice_text":"U bent een gevoelsmens.",
+            "choice_result":"F"
+         }
+      ]
+   },
+   {
+      "statement_number":16,
+      "statement_choices":[
+         {
+            "choice_number":1,
+            "choice_text":"U neemt de spanning weg door op tijd te beginnen.",
+            "choice_result":"J"
+         },
+         {
+            "choice_number":2,
+            "choice_text":"U creëert spanning door op het laatste moment te beginnen.",
+            "choice_result":"P"
+         }
+      ]
+   },
+   {
+      "statement_number":17,
+      "statement_choices":[
+         {
+            "choice_number":1,
+            "choice_text":"U bent actief, u zet zaken in gang.",
+            "choice_result":"E"
+         },
+         {
+            "choice_number":2,
+            "choice_text":"U bent passief, u laat zaken over u heen komen.",
+            "choice_result":"I"
+         }
+      ]
+   },
+   {
+      "statement_number":18,
+      "statement_choices":[
+         {
+            "choice_number":1,
+            "choice_text":"U bent vooral gericht op feiten en mensen.",
+            "choice_result":"S"
+         },
+         {
+            "choice_number":2,
+            "choice_text":"U bent vooral gericht op ideeën en fantasie.",
+            "choice_result":"N"
+         }
+      ]
+   },
+   {
+      "statement_number":19,
+      "statement_choices":[
+         {
+            "choice_number":1,
+            "choice_text":"U bent zakelijk en blijft bij het onderwerp.",
+            "choice_result":"T"
+         },
+         {
+            "choice_number":2,
+            "choice_text":"U bent gevoelig en dwaalt af als dat zo uitkomt.",
+            "choice_result":"F"
+         }
+      ]
+   },
+   {
+      "statement_number":20,
+      "statement_choices":[
+         {
+            "choice_number":1,
+            "choice_text":"U wilt controle en neemt graag initiatief.",
+            "choice_result":"J"
+         },
+         {
+            "choice_number":2,
+            "choice_text":"U wilt vrijheid en initiatief interesseert u niet zo.",
+            "choice_result":"P"
+         }
+      ]
+   }
+]
